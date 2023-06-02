@@ -1,0 +1,91 @@
+body {
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background: url('../portfolioitmbg.jpg');
+    position: absolute;
+    background-size: cover;
+}
+#ptop h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1430px;
+    height: 50px;
+    font-family: 'Poltawski Nowy', serif;
+}
+#ptop :hover{
+    background-color: rgb(169, 226, 113);
+    cursor: pointer;
+}
+.h-primary {
+    font-size: 2.8rem;
+    padding: 8px;
+    background-color:rgba(10, 180, 22, 0.683);
+    border: 4px solid black;
+    border-radius: 6px;
+}
+#r1{
+    display: flex;
+    height: 400px;
+}
+#r2{
+    display: flex;
+    height: 400px;
+}
+#r3{
+    display: flex;
+    height: 400px;
+}
+#r4{
+    display: flex;
+    height: 400px;
+}
+.box
+{
+    padding: 5px;
+    margin: 5px;
+    height: auto;
+    width: 18vw; 
+}
+.box img
+{
+    height: 150px;
+    display: block;
+    margin: auto;
+    transition-duration: 0.3s;
+}
+.box :hover
+{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.name
+{
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(10, 180, 22);
+    border-radius: 5px;
+}
+.button img
+{
+    display: flex;
+    height: 30px;
+}
+button
+{
+    margin: 20px;
+    transition-duration: 0.3s;
+}
+.logo img :hover
+{
+    cursor: pointer;
+    background-color: rgb(70, 64, 64);
+    transform: scale(1.3);
+}
+.about
+{
+    color: white;
+}
